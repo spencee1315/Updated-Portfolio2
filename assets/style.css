@@ -863,3 +863,39 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
   -webkit-animation: load 10s;
           animation: load 10s;
 }
+
+/* Button */
+
+form {
+    padding-left: 58px;
+}
+
+
+.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.offset:hover, .offset:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+
+.offset {
+  --color: #3F88C5;
+  --hover: #136F63;
+  cursor: pointer;
+}
+
+#button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  color: var(--color);
+-webkit-transition: 0.25s;
+transition: 0.25s;
+}
+#button:hover, button:focus {
+border-color: var(--hover);
+color: #fff;
+}

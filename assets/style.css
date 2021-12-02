@@ -786,7 +786,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 
 .icon {
 	padding-right: 10px;
-	color: #e55d87;
+	color: #136F63;
 	/* font-size: 30px; */
 }
 .block {
@@ -801,7 +801,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 
 /* Skills */
 
-@import url(https://fonts.googleapis.com/css?family=Lato:100,400);
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,400);
 @-webkit-keyframes load {
   0% {
     stroke-dashoffset: 0;
